@@ -1,12 +1,26 @@
 h1 {
-    font-family: 'Times New Roman'; 
+    font-family: 'Times New Roman', Times, serif;
     font-size: 22pt;
     text-align: center;
+    color: white;
+}
+
+h2 {
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 18pt;
+  text-align: center;
 }
 
 p {
-    font-family: 'Times New Roman';
+    font-family: 'Times New Roman', Times, serif;
     font-size: 15pt;
+    padding: 1px 10px;
+}
+
+form {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 15pt;
+    padding: 1px 10px;
 }
 
 body {
@@ -14,7 +28,7 @@ body {
     line-height: 1.5;
 }
 
-#bg{
+#bg {
   background-size: cover;
   background-repeat: no-repeat;
   background-position: top;
@@ -27,6 +41,12 @@ body {
     width: 700px;
     border-radius: 10px;
     background-color: white;
+}
+
+div.content {
+  margin-left: 200px;
+  padding: 1px 400px;
+  height: 1000px;
 }
 
 .sidebar {
@@ -54,12 +74,6 @@ body {
 .sidebar a:hover:not(.active) {
   background-color: white;
   color: black;
-}
-
-div.content {
-  margin-left: 200px;
-  padding: 1px 16px;
-  height: 1000px;
 }
 
 @media screen and (max-width: 700px) {
