@@ -1,0 +1,39 @@
+{% load static %}
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Weeks Law</title>
+        <link rel="stylesheet" type="text/css" href="{% static 'css/styles.css' %}">
+    </head>
+
+    <body>
+
+        <h1 style="text-align: center;">Weeks Law</h1>
+        
+        <div class="sidebar">
+            <a class="active" href="{% url 'home' %}">Home</a>
+            <a class="active" href="{% url 'about' %}">About</a>
+            <a class="active" href="{% url 'contact' %}">Contact</a>
+            <a class="active" href="{% url 'blog' %}">Blog</a>
+        </div>
+
+        <div class="content">
+            <h2>Contact Weeks Law</h2>
+            <p>You can contact me on LinkedIn or a submit a message on this page. <br><br>
+            LinkedIn: <a href="https://www.linkedin.com/in/lweekslaw/">Lacey Weeks</a> <br><br>
+
+            <form onsubmit="submission()">
+                <label for="fname">First name:</label><br>
+                <input type="text" id="fname" name="fname"><br>
+                <label for="lname">Last name:</label><br>
+                <input type="text" id="lname" name="lname"><br>
+                <label for="message">Message</label><br>
+                <input type="text" id="message" name="message"><br><br>
+                <input type="submit" value="Submit" />
+              </form>
+            </p>
+        </div>
+
+    </body>
+
+</html>

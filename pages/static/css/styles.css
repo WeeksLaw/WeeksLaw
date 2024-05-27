@@ -1,0 +1,74 @@
+
+h1 {
+    font-family: 'Times New Roman'; 
+    font-size: 22pt;
+    text-align: center;
+}
+
+p {
+    font-family: 'Times New Roman';
+    font-size: 15pt;
+}
+
+body {
+    margin: 0;
+    line-height: 1.5;
+}
+
+.container {
+    position: absolute;
+    margin: 10px;
+    width: 700px;
+    border-radius: 10px;
+    background-color: white;
+}
+
+.sidebar {
+  margin: 0;
+  padding: 0;
+  width: 200px;
+  background-color: black;
+  position: fixed;
+  height: auto;
+  overflow: auto;
+}
+
+.sidebar a {
+  display: block;
+  color: black;
+  padding: 16px;
+  text-decoration: none;
+}
+
+.sidebar a.active {
+  background-color: lightgrey;
+  color: black;
+}
+
+.sidebar a:hover:not(.active) {
+  background-color: white;
+  color: black;
+}
+
+div.content {
+  margin-left: 200px;
+  padding: 1px 16px;
+  height: 1000px;
+}
+
+@media screen and (max-width: 700px) {
+  .sidebar {
+    width: 100%;
+    height: auto;
+    position: relative;
+  }
+  .sidebar a {float: left;}
+  div.content {margin-left: 0;}
+}
+
+@media screen and (max-width: 400px) {
+  .sidebar a {
+    text-align: center;
+    float: none;
+  }
+}
