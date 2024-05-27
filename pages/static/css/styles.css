@@ -1,4 +1,3 @@
-
 h1 {
     font-family: 'Times New Roman'; 
     font-size: 22pt;
@@ -13,6 +12,13 @@ p {
 body {
     margin: 0;
     line-height: 1.5;
+}
+
+#bg{
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top;
+  background-attachment: fixed;
 }
 
 .container {
