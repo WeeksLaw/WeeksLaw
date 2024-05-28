@@ -14,6 +14,13 @@ h2 {
 p {
     font-family: 'Times New Roman', Times, serif;
     font-size: 15pt;
+    padding: 1px 10px;
+}
+
+form {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 15pt;
+    padding: 1px 10px;
 }
 
 body {
@@ -21,7 +28,7 @@ body {
     line-height: 1.5;
 }
 
-#bg{
+#bg {
   background-size: cover;
   background-repeat: no-repeat;
   background-position: top;
@@ -39,6 +46,8 @@ body {
 div.content {
   margin-left: 400px;
   padding: 1px 16px;
+  margin-left: 200px;
+  padding: 1px 400px;
   height: 1000px;
 }
 
