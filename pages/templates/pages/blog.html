@@ -9,6 +9,7 @@
     <body id="bg" style="background-image: url('{% static "assets/8.JPG" %}')";>
 
         <h1>Weeks Law</h1>
+        <h1>Blog</h1>
         
         <div class="sidebar">
             <a class="active" href="{% url 'home' %}">Home</a>
@@ -18,12 +19,9 @@
         </div>
 
         <div class="content">
-            <div class="container">
-                <h2>BLOG</h2>
                 <iframe class="pdf" 
-                    src={% static "assets/WeeksCollection.pdf" %} width="997" height="500">
+                    src={% static "assets/WeeksCollection.pdf" %} width="997" height="900">
                 </iframe>
-            </div>
         </div>
 
     </body>
